@@ -1,0 +1,94 @@
+*{
+overflow: auto;
+transition-duration: 1s;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  .hr {
+    width: 40%;
+    height: 2px;
+    margin: 20px auto;
+    background: linear-gradient(to right, #111, rgb(233, 66, 94), #111);
+}
+  .logo{
+      width: 50px;
+  }
+  body{
+      background-image: url(../img/137225.jpg);
+  }
+  p,h2 {
+    font-family: 'Akaya Telivigala', cursive;
+}
+h1{
+    height: 51px;
+    margin: 0;
+    text-align: center;
+}
+hr{
+    text-align: center;
+}
+.navbar{
+    background: linear-gradient(to right,rgb(9, 13, 243), rgb(255, 15, 15) 70%);
+}
+.navbar ul li a {
+    color: white;
+    font-family: cursive;
+    font-weight: 300;
+    transition: all 0.2s;
+    margin: 0px 10px;
+}
+
+.navbar ul li a:hover {
+    background-color: black;
+    color: darkblue;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.aboutUs{
+    color: blue;
+    background-color: rgba(59, 59, 59, 0.9);
+   text-align: center;
+}
+nav .nav{
+    overflow: hidden;
+}
+.gallary nav .nav-link{
+    height: 55px;
+    border-radius: 20px;
+}
+.gallary{
+    color: blue;
+    background-color: rgba(53, 50, 50, 0.9);
+   text-align: center;
+}
+.gallary .he{
+    color: white;
+}
+.gallary .tab-content{
+    transition: 0.3s;
+}
+.gallary .tab-content img{
+    border-radius: 20px;
+    margin: 5px 0;
+}
+.site-footer{
+    color: blue;
+    background-color: rgba(54, 54, 54, 0.9);
+    font-size:15px;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr .nn{
+  margin:20px 0;
+}
+div .social-icons{
+    overflow: hidden;
+}
+label{
+    color: rgb(160, 159, 159);
+}
